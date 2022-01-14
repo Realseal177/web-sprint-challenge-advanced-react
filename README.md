@@ -118,8 +118,18 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What are the main differences between a class-based and a functional component?
 
+A. A class based component does not require props to be passed in. Also, class based components are essentially objects. They require one to render() whatever they want to see show up on screen
+
 2. When does a componentWillMount function be called? What about a componentDidUpdate?
+
+A. Before the initial render. componentDidUpdate triggers immediately after updating occurs
 
 3. Define stateful logic.
 
+A. It's basically behaviors that are created using custom hook/s
+
 4. What are the three step of creating a successful test? What is done in each phase? 
+
+A.  Arrange-- rendering the component you're testing 
+    Act-- select your elements within the component 
+    Assert-- where the actual testing code of what you're EXPECTING goes
