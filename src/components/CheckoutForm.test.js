@@ -36,20 +36,8 @@ test("shows success message on submit with form details", async () => {
 
     await waitFor (() => {
         const messageDisplay = screen.queryByTestId(/successMessage/i)
-        // const firstNameDisplay = screen.queryByText(firstName);
-        // const lastNameDisplay = screen.queryByText(lastName);
-        // const addressDisplay = screen.queryByText(address);
-        // const cityDisplay = screen.queryByText(city);
-        // const stateDisplay = screen.queryByText(state);
-        // const zipDisplay = screen.queryByText(zip);
 
         expect(messageDisplay).toBeInTheDocument();
-        // expect(firstNameDisplay).toBeInTheDocument();
-        // expect(lastNameDisplay).toBeInTheDocument();
-        // expect(addressDisplay).toBeInTheDocument();
-        // expect(cityDisplay).toBeInTheDocument();
-        // expect(stateDisplay).toBeInTheDocument();
-        // expect(zipDisplay).toBeInTheDocument();
     });
 
 
